@@ -1,0 +1,69 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.skill{
+   min-width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: blueviolet;
+    box-shadow: 0 0 10px;
+    position: relative;
+    margin: 20px 40px;
+    border-radius: 10px;
+    
+}
+h1{
+    text-align: center;
+    margin: 20px;
+}
+.skill p{
+    margin: 10px;
+}
+.progress{
+    height: 20px;
+    position: relative;
+   background-color: rgb(187, 199, 220);
+}
+.progress-bar-html{
+    width: 80%;
+    height: 100%;
+    background-color: black;
+    animation: animate-html 2s ease-in-out;
+}
+.progress-bar-css{
+    width: 70%;
+    height: 100%;
+    background-color: black;
+    animation: animate-css 2s ease-in-out;
+}
+.progress-bar-javascript{
+    width: 50%;
+    height: 100%;
+    background-color: black;
+    animation: animate-javascript 2s ease-in-out;
+}
+@keyframes animate-html {
+     0%{
+        width: 0;
+     }
+     100%{
+        width: 80%;
+     }
+}
+@keyframes animate-css {
+    0%{
+       width: 0;
+    }
+    100%{
+       width: 70%;
+    }
+}
+@keyframes animate-javascript {
+    0%{
+       width: 0;
+    }
+    100%{
+       width: 50%;
+    }
+}
